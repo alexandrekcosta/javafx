@@ -1,0 +1,7 @@
+package gui.util;
+
+public class Alerts {
+	
+	public static void showAlert(String title,String header)
+
+}

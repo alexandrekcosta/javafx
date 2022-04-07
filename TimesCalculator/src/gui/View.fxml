@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="460.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControlClass">
+   <children>
+      <Pane layoutX="-100.0" layoutY="-199.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="218.0" layoutY="38.0" text="Times Calculator" textAlignment="CENTER">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="129.0" text="First number:" textAlignment="CENTER">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="180.0" text="Second number:" textAlignment="CENTER">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="358.0" text="Result:">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelResult" layoutX="166.0" layoutY="384.0" />
+      <TextField fx:id="txtNumber1" layoutX="259.0" layoutY="149.0" promptText="Enter first number" />
+      <TextField fx:id="txtNumber2" layoutX="288.0" layoutY="193.0" promptText="Enter second number" />
+      <Button fx:id="btTimes" layoutX="308.0" layoutY="231.0" mnemonicParsing="false" onAction="#onBtTimesAction" text="Times" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

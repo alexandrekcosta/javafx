@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControlClass">
+   <children>
+      <Label layoutX="195.0" layoutY="25.0" text="Minus Calculator">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="138.0" text="First number: ">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="200.0" text="Second number:">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumber1" layoutX="262.0" layoutY="157.0" promptText="Insert first number" />
+      <TextField fx:id="txtNumber2" layoutX="275.0" layoutY="220.0" promptText="Insert second number" />
+      <Button fx:id="BtMinus" layoutX="274.0" layoutY="268.0" mnemonicParsing="false" onAction="#onBtMinusAction" text="Diminish" />
+      <Label layoutX="59.0" layoutY="322.0" text="Result: ">
+         <font>
+            <Font name="MV Boli" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelResult" layoutX="167.0" layoutY="348.0" />
+   </children>
+</Pane>
